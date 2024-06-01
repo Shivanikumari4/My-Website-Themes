@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GARMENTS</title>
+
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="top"></div>
+
+    <div class="sidebar social-link-fixed">
+        <div class="social facebook">
+            <a href="https://www.facebook.com" target="_blank">
+                <p><i class="fa-brands fa-facebook-f"></i> Like on Facebook </p>
+            </a>
+        </div>
+        <div class="social twitter">
+            <a href="https://www.twitter.com" target="_blank">
+                <p><i class="fa-brands fa-twitter"></i> Follow on Twitter </p>
+            </a>
+        </div>
+        <div class="social instagram">
+            <a href="https://www.plus.google.com" target="_blank">
+                <p><i class="fa-brands fa-instagram"></i> Add on Instagram </p>
+            </a>
+        </div>
+
+        <div class="social youtube">
+            <a href="https://www.facebook.com" target="_blank">
+                <p><i class="fa-brands fa-youtube"></i> Like on Youtube </p>
+            </a>
+        </div>
+        <div class="social linkdin">
+            <a href="https://www.twitter.com" target="_blank">
+                <p><i class="fa-brands fa-linkedin-in"></i> Follow on Linkdin</p>
+            </a>
+        </div>
+        <div class="social telegram">
+            <a href="https://www.plus.google.com" target="_blank">
+                <p><i class="fa-brands fa-telegram"></i> Add on Telegram </p>
+            </a>
+        </div>
+    </div>
+
+    <header class="header-section">
+        <div class="topheader-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p class="topheader-left"><a href="">Order Tracking</a></p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p class="topheader-right"><a href=""><i class="fas fa-map-marker-alt"></i> Store Location</a>
+                            <a href=""><i class="fas fa-envelope"></i> zyz@example.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-header" id="myHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <h1 class="heading-titleText">GARMENTS</h1>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                        <nav class="topnav" id="topnav">
+                            <a href="#home" class="active">Home</a>
+                            <a href="#AboutUs">About Us</a>
+                            <a href="#Products">Products</a>
+                            <a href="#Gallery">Gallery</a>
+                            <a href="#contactus">Contact Us</a>
+                            <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="Sliderbanner-section" id="home">
+        <div class="Modern-Slider">
+            <div class="item">
+                <div class="img-fill">
+                    <img src="./images/blogImage2.jpg" alt="">
+                    <div class="info">
+                        <div class="banner2txt">
+                            <h3>Choose Life. Choose Style</h3>
+                            <h5>Stitching Our Way to a Better Future<br> <a href="">Shop Now</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-fill">
+                    <img src="./images/banner-image3.webp" alt="">
+                    <div class="info">
+                        <div class="banner1txt">
+                            <h3>Wear Your Best Moments</h3>
+                            <h5>BIG SALE<br>Upto 50% Off<br> <a href="">Shop Now</a> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Seaction -->
+    <section class="detail-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="detail-div">
+                        <div class="detail-content">
+                            <div class="icons">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="detail-txt">
+                                <h4>LOCATION</h4>
+                                <p>XXX Road No-12345</p>
+                            </div>
+                        </div>
+                        <div class="detail-content">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="detail-txt">
+                                <h4>MAIL</h4>
+                                <p>abc@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="detail-div detail-txtcard">
+                        <div class="detail-caption textQuality">
+                            <h4>Quality Product</h4>
+                            <p>Our product quality describes product's capability to meet user standards</p>
+                            <p class="arrow">Read More<i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                        <div class="detail-caption textproject">
+                            <h4>Project Overview</h4>
+                            <h3>2,476</h3>
+                            <p>Export Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Details Seaction -->
+
+    <!-- About section -->
+    <section id="AboutUs">
+        <div class="container">
+            <div class="about-sec">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 about-images">
+                        <img src="./images/about-image.webp" alt="" width="100%" height="400px">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 about-textsec">
+                        <h5 class="about-title">About Garments</h5>
+                        <h3 class="about-text">We Provide The Best Garments
+                        </h3>
+                        <p class="about-paragraph">
+                            We are one of the world's leading garment producers and exporters with several manufacturing
+                            facilities in different parts of South East Asia.
+                        </p>
+                        <p class="about-paragraph">
+                            Wih a total capacity to create and export 30 million pieces each year we are a one stop shop
+                            for woven apparel, production, specialised in men's and women's casual wear, formal wear and
+                            active sportswear
+                        </p>
+                        <p class="about-paragraph">
+                            Our Mission is to create new, holistic solutions, we push excellence through passion and
+                            cooperation
+                        </p>
+                        <div class="photo-divider">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="about-btn">
+                                        <button class="btn">More About US</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section -->
+
+    <!-- Services section -->
+    <section id="Products" style="background-color: aliceblue;">
+        <div class="container">
+            <div class="service-sec">
+                <div class="row service-row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 service-title">
+                        <h1 class="service-text">Delivering The Highest Quality Fabrics</h1>
+                    </div>
+                    <div class="col-md-6 sevice-content">
+                        <p class="service-paragraph">
+                            When evaluating product quality we consider several key factors such as whether a product
+                            satisfies customer needs and meets industry standards
+                        </p>
+                        <button class="btn">All Products</button>
+                    </div>
+                </div>
+                <div class="card-sec">
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="./images/hoodies.jpg" alt="">
+                                    <h3>Hoodies</h3>
+                                    <p class="card-paragraph">
+                                        Buy casual jackets with a hood to cover the head
+                                    </p>
+                                    <p class="arrow">Read More<i class="fa-solid fa-arrow-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="./images/Woven-shirts.jpg" alt="">
+                                    <h3>Woven Shirts</h3>
+                                    <p class="card-paragraph">
+                                        Buy Woven Shirts which offer the best comfort and protection as they are
+                                        designed to last with repeated use
+                                    </p>
+                                    <p class="arrow">Read More<i class="fa-solid fa-arrow-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="./images/Active-cloths.jpg" alt="">
+                                    <h3>Active Wear</h3>
+                                    <p class="card-paragraph">
+                                        Buy workout clothes for men and women at best prices
+                                    </p>
+                                    <p class="arrow">Read More<i class="fa-solid fa-arrow-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services section -->
+
+    <!-- Photo Gallery section -->
+    <section class="PhotoGallery-section" id="Gallery">
+        <div class="container" id="image-gallery">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow slideInUp">
+                    <div class="heading-txt">
+                        <h6>Photo Gallery</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery-activewear1.jpg">
+                            <img src="./images/gallery-activewear1.jpg" height="500px">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery-hoodie1.jpg">
+                            <img src="./images/gallery-hoodie1.jpg">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInRight">
+                    <div class="img-wrapper">
+                        <a href="./images/Gallery-shirt1.jpg">
+                            <img src="./images/Gallery-shirt1.jpg">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInRight">
+                    <div class="img-wrapper">
+                        <a href="./images/cloths4">
+                            <img src="./images/gallery-hoodie2.jpg">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/cloths5">
+                            <img src="./images/gallery-shirt2.jpg">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery-activewear2.jpg">
+                            <img src="./images/gallery-activewear2.jpg">
+                        </a>
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Photo Gallery section -->
+    
+    <!-- contact us -->
+    <section class="ContactUs-section" id="contactus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow slideInUp">
+                    <div class="heading-txt">
+                        <h6>Contact Us</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow slideInUp">
+                    <div class="ContactUs-form">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h3>Location:</h3>
+                                    <h4>Delhi, India</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Open Hours:</h3>
+                                    <h4>Monday-Saturday: <br> 11:00 AM - 02:30 PM</h4>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email:</h3>
+                                    <h4>xyz@example.com</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-mobile"></i>
+                                <div>
+                                    <h3>Call:</h3>
+                                    <h4>+91 785459XXXX<br> +91 785459XXXX</h4>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <form class="row m-0" method="POST" id="queryform">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3>Query Form</h3>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div id="successmsg"></div>
+                                <h6 class="msg-error" id="msg-error" style="display:none;"></h6>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="uname" name="uname" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="umobile" name="umobile" placeholder="Your Phone No.">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" id="uemail" name="uemail" placeholder="Your Email ID">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <textarea name="umessage" id="umessage" rows="4" placeholder="Your Message"></textarea>
+                                <input type="hidden" name="domainid" id="domainid" value="1">
+                                <input type="hidden" name="domainurl" id="domainurl" value="demo.meriwebsite.com">
+                                <button type="button" id="querysubmit">Send
+                                    Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------Contact Us section------------------- -->
+
+    <!-- -----------------------Footer section------------------------ -->
+    <footer class="Footer-section" style="background-image: url(./images/footerbanner.webp);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>GARMENTS</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Eos, corporis.</p>
+                    <p>
+                        <a href=""><i class="fab fa-facebook-f"></i> </a>
+                        <a href=""><i class="fab fa-instagram"></i> </a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></i></a>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <h6 class="icons">
+                        <a href="#home"><i class="fas fa-angle-right"></i> Home</a>
+                        <a href="#AboutUs"><i class="fas fa-angle-right"></i> About Us</a>
+                        <a href="#Products"><i class="fas fa-angle-right"></i> Products</a>
+                        <a href="#Gallery"><i class="fas fa-angle-right"></i> Gallery</a>
+                        <a href="#contactus"><i class="fas fa-angle-right"></i> Contact Us</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Contact US</h3>
+                    <h5><i class="fas fa-map-marker-alt"></i> No XX XXXX Delhi</h5>
+                    <h5><i class="fa-solid fa-envelope"></i> abc@gmail.com</h5>
+                    <h5><i class="fa-solid fa-phone"></i> 123456XXXX</h5>
+                </div>
+            </div>
+            <div class="Footerflex-box">
+                <h5>
+                    Copyright © 2022 <span>Garments</span>. All rights reserved
+                </h5>
+                <h4>
+                    Design & Developed by: <a href="https://meriwebsite.in/">MeriWebsite</a>
+                </h4>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section -->
+
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/wow.min.js"></script>
+    <script src="./JS/slick.js"></script>
+    <script src="./JS/isotope-docs.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // change this if you are not using animate.css
+            offset: 0, // default
+            mobile: true, // keep it on mobile
+            live: true // track if element updates
+        })
+        wow.init();
+    </script>
+
+    <script>
+        const toggle = () => {
+            const nav = document.getElementById("topnav");
+            nav.className === "topnav" ? nav.className += " responsive" : nav.className = "topnav";
+        };
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".Modern-Slider").slick({
+                autoplay: true,
+                autoplaySpeed: 10000,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                dots: true,
+                pauseOnDotsHover: true,
+                cssEase: 'linear',
+                // fade:true,
+                draggable: false,
+                prevArrow: '<button class="PrevArrow"></button>',
+                nextArrow: '<button class="NextArrow"></button>',
+            });
+        })
+    </script>
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <script>
+        // Gallery image hover
+        $(".img-wrapper").hover(
+            function () {
+                $(this).find(".img-overlay").animate({
+                    opacity: 1
+                }, 600);
+            },
+            function () {
+                $(this).find(".img-overlay").animate({
+                    opacity: 0
+                }, 600);
+            }
+        );
+
+        // Lightbox
+        var $overlay = $('<div id="overlay"></div>');
+        var $image = $("<img>");
+        var $prevButton = $(
+            '<div id="prevButton"><i class="fa fa-chevron-left"></i></div>'
+        );
+        var $nextButton = $(
+            '<div id="nextButton"><i class="fa fa-chevron-right"></i></div>'
+        );
+        var $exitButton = $('<div id="exitButton"><i class="fa fa-times"></i></div>');
+
+        // Add overlay
+        $overlay
+            .append($image)
+            .prepend($prevButton)
+            .append($nextButton)
+            .append($exitButton);
+        $("#Gallery").append($overlay);
+
+        // Hide overlay on default
+        $overlay.hide();
+
+        // When an image is clicked
+        $(".img-overlay").click(function (event) {
+            // Prevents default behavior
+            event.preventDefault();
+            // Adds href attribute to variable
+            var imageLocation = $(this).prev().attr("href");
+            // Add the image src to $image
+            $image.attr("src", imageLocation);
+            // Fade in the overlay
+            $overlay.fadeIn("slow");
+        });
+
+        // When the overlay is clicked
+        $overlay.click(function () {
+            // Fade out the overlay
+            $(this).fadeOut("slow");
+        });
+
+        // When next button is clicked
+        $nextButton.click(function (event) {
+            // Hide the current image
+            $("#overlay img").hide();
+            // Overlay image location
+            var $currentImgSrc = $("#overlay img").attr("src");
+            // Image with matching location of the overlay image
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+            // Finds the next image
+            var $nextImg = $($currentImg.closest(".image").next().find("img"));
+            // All of the images in the gallery
+            var $images = $("#image-gallery img");
+            // If there is a next image
+            if ($nextImg.length > 0) {
+                // Fade in the next image
+                $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+            } else {
+                // Otherwise fade in the first image
+                $("#overlay img").attr("src", $($images[0]).attr("src")).fadeIn(800);
+            }
+            // Prevents overlay from being hidden
+            event.stopPropagation();
+        });
+
+        // When previous button is clicked
+        $prevButton.click(function (event) {
+            // Hide the current image
+            $("#overlay img").hide();
+            // Overlay image location
+            var $currentImgSrc = $("#overlay img").attr("src");
+            // Image with matching location of the overlay image
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+            // Finds the next image
+            var $nextImg = $($currentImg.closest(".image").prev().find("img"));
+            // Fade in the next image
+            $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+            // Prevents overlay from being hidden
+            event.stopPropagation();
+        });
+
+        // When the exit button is clicked
+        $exitButton.click(function () {
+            // Fade out the overlay
+            $("#overlay").fadeOut("slow");
+        });
+    </script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.scrolltop:hidden').stop(true, true).fadeIn();
+            } else {
+                $('.scrolltop').stop(true, true).fadeOut();
+            }
+        });
+        $(function () {
+            $(".scroll").click(function () {
+                $("html,body").animate({
+                    scrollTop: $(".top").offset().top
+                }, "1000");
+                return false
+            })
+        })
+    </script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            var $slickElement = $('.slideshow');
+
+            $slickElement.slick({
+                autoplay: true,
+                dots: false,
+            });
+
+        });
+    </script>
+
+    <script>
+        // <!---Contact-form---->
+        jQuery(document).on('click', '#querysubmit', function () {
+            jQuery("#msg-error").css('display', 'none');
+            var name = $("#uname").val();
+            var email = $("#uemail").val();
+            var mobile = $("#umobile").val();
+            var message = $("#umessage").val();
+            var domainid = $("#domainid").val();
+            var domainurl = $("#domainurl").val();
+            var atposition = email.indexOf("@");
+            var dotposition = email.lastIndexOf(".");
+            var name_regex = /^[0-9a-zA-Z \s]+$/;
+            var number_regex = /^[6-9]\d{9}$/;
+
+            if (name == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Name should not be empty.");
+                jQuery('#uname').focus();
+                return false;
+            }
+            if (mobile == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter Mobile Number.");
+                jQuery('#umobile').focus();
+                return false;
+            }
+            if (!mobile.match(number_regex)) {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter a Valid Mobile Number.");
+                jQuery('#umobile').focus();
+                return false;
+            }
+            if (email == '') {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter Your Email.");
+                jQuery('#uemail').focus();
+                return false;
+            }
+            if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter a valid E-mail address");
+                jQuery('#uemail').focus();
+                return false;
+            }
+            if (message == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter message.");
+                jQuery('#message').focus();
+                return false;
+            } else {
+                jQuery.ajax({
+                    url: "https://grapossconnect.com/api/meriwebsite_enquiry_api.php",
+                    method: "POST",
+                    data: {
+                        dataType: 'enquiry',
+                        name: name,
+                        email: email,
+                        mobile: mobile,
+                        message: message,
+                        domainid: domainid,
+                        domainurl: domainurl
+                    },
+                    success: function (data) {
+                        console.log(data);
+                        var msg = data.msg;
+                        //alert(msg);
+                        jQuery('#queryform')[0].reset();
+                        if (data.status == 1) {
+                            jQuery("#successmsg").html('<div class="success">Thankyou for contacting us we will revert back to you soon</div>');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr);
+                    }
+                })
+            }
+        });
+        // <!---End Contact Form--->
+    </script>
+    <!-- END FOOTER SECTION -->
+</body>
+
+</html>
