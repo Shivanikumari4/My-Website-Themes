@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DayCare</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top"></div>
+
+    <header class="header-section">
+        <div class="topheader-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 head-txt">
+                        <p class="topheader-left"><a href=""><i class="fa-solid fa-phone"></i> 896521XXXX</a></p>
+                        <a href="" id="gmail"><i class="fas fa-envelope"></i> zyz@example.com</a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p class="topheader-right">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i> </a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-header" id="myHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <h1>DayCare</h1>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                        <nav class="topnav" id="topnav">
+                            <a href="#home" class="active">Home</a>
+                            <a href="#aboutus">About Us</a>
+                            <a href="#services">Our Services</a>
+                            <a href="#gallery">Photo Gallery</a>
+                            <a href="#contactus">Contact Us</a>
+                            <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="Sliderbanner-section" id="home">
+        <div class="Modern-Slider">
+            <div class="item">
+                <div class="img-fill">
+                    <img src="./images/banner1.jpg" alt="">
+                    <div class="info">
+                        <div class="banner2txt">
+                            <h3>Helping to Build a Bright Future</h3>
+                            <h5>Times for both structured and creative learning opportunities<br> <a href="">Schedule A
+                                    Tour</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-fill">
+                    <img src="./images/banner2.jpg" alt="">
+                    <div class="info">
+                        <div class="banner1txt">
+                            <h3>High Quality Early Childhood Learning </h3>
+                            <h5>From 6 weeks to 12 years<br> <a href="">Enquire Here</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="aboutus">
+        <div class="about-sec">
+            <div class="container">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="row ">
+                            <div class="col-md-7 about-content">
+                                <h2>About <span style="color: rgb(192, 48, 48);">Us</span></h2>
+                                <p>Our Daycare Centre thinks that children are capable of complicated thinking, are
+                                    curious and have a lot of potential. Children are inherently motivated to learn and
+                                    when they are exposed to enrich settings, nurturing adult interactions, support and
+                                    the opportunity to explore. They can develop into self - motivated learners.</p>
+                                <p></p>
+                                <p>Children's understanding has grown over time, driven by ongoing study, experience and
+                                    engagement with families and community partners. Our Centre's ability to adapt and
+                                    adjust has enabled it to remain responsive and adaptable in terms of programme
+                                    opportunities for children.
+                                </p>
+                                <br>
+
+                                <div class="philosophy-text">
+                                    <h2>Our Philosophy</h2>
+                                    <p>We believe that we must make each opportunity count. These are the foundational
+                                        years
+                                        for a happy and fulfilling life. A youngster learns more in the early years of
+                                        learning rather than throughout their entire lifetime.</p>
+                                    <p>Our child care system is designed such that it entails in working on relevant and
+                                        related tasks with other students collectively and in small groups, thereby
+                                        allowing
+                                        the child to grow emotionally and intellectually.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 about-slider">
+                                <section class="Sliderbanner-section" id="home">
+                                    <div class="Modern-Slider">
+                                        <div class="item">
+                                            <div class="images-fill">
+                                                <img src="./images/about1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="images-fill">
+                                                <img src="./images/about2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-md-5">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"
+                                                    class="pannel1">Social Responsability<span><i
+                                                            class="fa-solid fa-angle-down"></i></span></a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse1" class="panel-collapse collapse in">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat.</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"
+                                                    class="pannel2">Mission Statement
+                                                    <span>
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat.</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"
+                                                    class="pannel3">Value Added Services
+                                                    <span>
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+
+                                        <div id="collapse3" class="panel-collapse collapse">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-7 philosophy-text">
+                                <h2>Our Philosophy</h2>
+                                <p>We believe that we must make each opportunity count. These are the foundational years
+                                    for a happy and fulfilling life. A youngster learns more in the early years of
+                                    learning rather than throughout their entire lifetime.</p>
+                                <p>Our child care system is designed such that it entails in working on relevant and
+                                    related tasks with other students collectively and in small groups, thereby allowing
+                                    the child to grow emotionally and intellectually.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+
+    <!-- -------------service Section------------------ -->
+    <section id="services">
+        <div class="service-sec">
+            <div class="container">
+                <div class="heading-text">
+                    <img src="./images/header2.png" alt="header2" style="width: 150px;">
+                    <h1><span style="color: rgb(201, 36, 36);">Our</span> Services</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card service-box">
+                            <div class="card-body">
+                                <div class="service-icon">
+                                    <img src="./images/service1.jpg" alt="service1">
+                                </div>
+
+                                <div class="body-contant">
+                                    <h2>Programs</h2>
+                                    <p>Our programs are organised around thematic sections that are supplemented by activities that are carefully developed for each child's unique development
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card service-box">
+                            <div class="card-body">
+                                <img src="./images/service2.jpg" alt="service2">
+                                <div class="body-contant">
+                                    <h2>Fun Activities</h2>
+                                    <p>Our Fun Activities are original and innovative which ensures that our Daycare Centre is your first choice.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card service-box">
+                            <div class="card-body">
+                                <div class="card-image">
+                                    <img src="./images/service3.jpg" alt="service3">
+                                </div>
+
+                                <div class="body-contant">
+                                    <h2>Meals</h2>
+                                    <p>The meals provided to children promote healthy eating.Meal times are relaxed and comfortable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid banner-sec">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="banner-image">
+                        <img src="./images/flyPhoto.png" alt="flyPhoto">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="bannersec-txt">
+                        <h2>Childhood Daycare will unleash your kid's Creativity</h2>
+                        <p>Encouraging children to try out new things and ideas is a crucial factor in their intellectual, physical and emotional growth. So we believe in helping them pursue their passion.</p>
+                        <button class="btn">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------Photo Gallery-------------------------- -->
+    <section class="PhotoGallery-section" id="gallery">
+        <div class="heading-text">
+            <img src="./images/header5.png" alt="header3">
+            <h1>Photo <span style="color: rgb(201, 36, 36);">Gallery</span></h1>
+        </div>
+
+        <div class="container" id="image-gallery">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery1.jpg">
+                            <img src="./images/gallery1.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery2.jpg">
+                            <img src="./images/gallery2.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInRight">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery3.jpg">
+                            <img src="./images/gallery3.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInRight">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery4.jpg">
+                            <img src="./images/gallery4.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery5.jpg">
+                            <img src="./images/gallery5.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery6.jpg">
+                            <img src="./images/gallery6.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery7.jpg">
+                            <img src="./images/gallery7.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery8.jpg">
+                            <img src="./images/gallery8.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 image wow slideInLeft">
+                    <div class="img-wrapper">
+                        <a href="./images/gallery9.jpg">
+                            <img src="./images/gallery9.jpg">
+                        </a>
+
+                        <div class="img-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------Photo Gallery-------------------------- -->
+
+    <!-- --------------Blog Section --------------- -->
+    <section id="blog">
+        <div class="container blog-sec">
+            <div class="heading-text text-center">
+                <img src="./images/header6.png" alt="header6">
+                <h1>Our <span style="color: rgb(189, 48, 48);">Latest</span> Blog</h1>
+            </div>
+
+            <div class="row blog-rows">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card card-contents">
+                        <div class="card-img-top">
+                            <img src="./images/blogprev1.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="blog-txt">
+                                <h2>Our deycare is getting ready for Summer Camp</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Sequi laboriosam optio cupiditate beatae labore ullam.
+                                    Enim dicta nulla corporis recusandae.</p>
+                            </div>
+
+                            <div class="like-button">
+                                <p><i class="fa-solid fa-people-group"></i> Admin <i class="fa-solid fa-comments"></i>
+                                    19 <i class="fa-solid fa-thumbs-up"></i> Likes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card card-contents">
+                        <div class="card-img-top">
+                            <img class="card-img-top" src="./images/blogprev2.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="blog-txt">
+                                <h2>Our deycare is getting ready for Summer Camp</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Sequi laboriosam optio cupiditate beatae labore ullam.
+                                    Enim dicta nulla corporis recusandae.</p>
+                            </div>
+
+                            <div class="like-button">
+                                <p><i class="fa-solid fa-people-group"></i> Admin <i class="fa-solid fa-comments"></i>
+                                    19 <i class="fa-solid fa-thumbs-up"></i> Likes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card card-contents">
+                        <div class="card-img-top">
+                            <img class="card-img-top" src="./images/blogprev3.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="blog-txt">
+                                <h2>Our deycare is getting ready for Summer Camp</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Sequi laboriosam optio cupiditate beatae labore ullam.
+                                    Enim dicta nulla corporis recusandae.</p>
+                            </div>
+
+                            <div class="like-button">
+                                <p><i class="fa-solid fa-people-group"></i> Admin <i class="fa-solid fa-comments"></i>
+                                    19 <i class="fa-solid fa-thumbs-up"></i> Likes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------Blog Section --------------- -->
+
+    <!-- ---------------------Contact Us section------------------- -->
+    <section class="ContactUs-section" id="contactus">
+        <div class="container contact-sec">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow slideInUp">
+                    <div class="heading-text">
+                        <img src="./images/header3.png" alt="header3">
+                        <h1>Contact <span style="color: rgb(192, 48, 48);">Us</span></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow slideInUp">
+                    <div class="ContactUs-form">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h3>Location:</h3>
+                                    <h4>Delhi, India</h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Open Hours:</h3>
+                                    <h4>Monday-Saturday: <br> 11:00 AM - 02:30 PM</h4>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email:</h3>
+                                    <h4>xyz@example.com</h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-mobile"></i>
+                                <div>
+                                    <h3>Call:</h3>
+                                    <h4>+91 785459XXXX<br> +91 785459XXXX</h4>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <form class="row m-0" method="POST" id="queryform">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h3>Query Form</h3>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div id="successmsg"></div>
+                                <h6 class="msg-error" id="msg-error" style="display:none;"></h6>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="uname" name="uname" placeholder="Your Name">
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="umobile" name="umobile" placeholder="Your Phone No.">
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" id="uemail" name="uemail" placeholder="Your Email ID">
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <textarea name="umessage" id="umessage" rows="4" placeholder="Your Message"></textarea>
+                                <input type="hidden" name="domainid" id="domainid" value="1">
+                                <input type="hidden" name="domainurl" id="domainurl" value="demo.meriwebsite.com">
+                                <button type="button" id="querysubmit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------Contact Us section------------------- -->
+
+    <!-- -----------------------Footer section------------------------ -->
+    <footer class="Footer-section" style="background-image: url(./images/footerbanner.webp);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>DAY CARE</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Eos, corporis.</p>
+                    <p>
+                        <a href=""> <i class="fab fa-facebook-f"></i> </a>
+                        <a href=""> <i class="fab fa-instagram"></i> </a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></i></a>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <h6 class="icons">
+                        <a href="#home"><i class="fas fa-angle-right"></i> Home</a>
+                        <a href="#aboutus"><i class="fas fa-angle-right"></i> About Us</a>
+                        <a href="#services"><i class="fas fa-angle-right"></i> Our Services</a>
+                        <a href="#gallery"><i class="fas fa-angle-right"></i> Photo Gallery</a>
+                        <a href="#contactus"><i class="fas fa-angle-right"></i> Contact Us</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Contact US</h3>
+                    <h5><i class="fas fa-map-marker-alt"></i> No XX XXXX Delhi</h5>
+                    <h5><i class="fa-solid fa-envelope"></i> abc@gmail.com</h5>
+                    <h5><i class="fa-solid fa-phone"></i> 123456XXXX</h5>
+                </div>
+            </div>
+            <div class="Footerflex-box">
+                <h5>
+                    Copyright © 2022 <span>Day Care</span>. All rights reserved
+                </h5>
+                <h4>
+                    Design & Developed by: <a href="https://meriwebsite.in/">MeriWebsite</a>
+                </h4>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -----------------------Footer section------------------------ -->
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // change this if you are not using animate.css
+            offset: 0, // default
+            mobile: true, // keep it on mobile
+            live: true // track if element updates
+        })
+        wow.init();
+    </script>
+
+    <script>
+        const toggle = () => {
+            const nav = document.getElementById("topnav");
+            nav.className === "topnav" ? nav.className += " responsive" : nav.className = "topnav";
+        };
+    </script>
+
+    <script src="./js/slick.js"></script>
+    <script src="./js/isotope-docs.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".Modern-Slider").slick({
+                autoplay: true,
+                autoplaySpeed: 10000,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                dots: true,
+                pauseOnDotsHover: true,
+                cssEase: 'linear',
+                // fade:true,
+                draggable: false,
+                prevArrow: '<button class="PrevArrow"></button>',
+                nextArrow: '<button class="NextArrow"></button>',
+            });
+
+        })
+    </script>
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <script>
+        // Gallery image hover
+        $(".img-wrapper").hover(
+            function () {
+                $(this).find(".img-overlay").animate({
+                    opacity: 1
+                }, 600);
+            },
+            function () {
+                $(this).find(".img-overlay").animate({
+                    opacity: 0
+                }, 600);
+            }
+        );
+
+        // Lightbox
+        var $overlay = $('<div id="overlay"></div>');
+        var $image = $("<img>");
+        var $prevButton = $(
+            '<div id="prevButton"><i class="fa fa-chevron-left"></i></div>'
+        );
+        var $nextButton = $(
+            '<div id="nextButton"><i class="fa fa-chevron-right"></i></div>'
+        );
+        var $exitButton = $('<div id="exitButton"><i class="fa fa-times"></i></div>');
+
+        // Add overlay
+        $overlay
+            .append($image)
+            .prepend($prevButton)
+            .append($nextButton)
+            .append($exitButton);
+        $("#gallery").append($overlay);
+
+        // Hide overlay on default
+        $overlay.hide();
+
+        // When an image is clicked
+        $(".img-overlay").click(function (event) {
+            // Prevents default behavior
+            event.preventDefault();
+            // Adds href attribute to variable
+            var imageLocation = $(this).prev().attr("href");
+            // Add the image src to $image
+            $image.attr("src", imageLocation);
+            // Fade in the overlay
+            $overlay.fadeIn("slow");
+        });
+
+        // When the overlay is clicked
+        $overlay.click(function () {
+            // Fade out the overlay
+            $(this).fadeOut("slow");
+        });
+
+        // When next button is clicked
+        $nextButton.click(function (event) {
+            // Hide the current image
+            $("#overlay img").hide();
+            // Overlay image location
+            var $currentImgSrc = $("#overlay img").attr("src");
+            // Image with matching location of the overlay image
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+            // Finds the next image
+            var $nextImg = $($currentImg.closest(".image").next().find("img"));
+            // All of the images in the gallery
+            var $images = $("#image-gallery img");
+            // If there is a next image
+            if ($nextImg.length > 0) {
+                // Fade in the next image
+                $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+            } else {
+                // Otherwise fade in the first image
+                $("#overlay img").attr("src", $($images[0]).attr("src")).fadeIn(800);
+            }
+            // Prevents overlay from being hidden
+            event.stopPropagation();
+        });
+
+        // When previous button is clicked
+        $prevButton.click(function (event) {
+            // Hide the current image
+            $("#overlay img").hide();
+            // Overlay image location
+            var $currentImgSrc = $("#overlay img").attr("src");
+            // Image with matching location of the overlay image
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+            // Finds the next image
+            var $nextImg = $($currentImg.closest(".image").prev().find("img"));
+            // Fade in the next image
+            $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+            // Prevents overlay from being hidden
+            event.stopPropagation();
+        });
+
+        // When the exit button is clicked
+        $exitButton.click(function () {
+            // Fade out the overlay
+            $("#overlay").fadeOut("slow");
+        });
+    </script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.scrolltop:hidden').stop(true, true).fadeIn();
+            } else {
+                $('.scrolltop').stop(true, true).fadeOut();
+            }
+        });
+        $(function () {
+            $(".scroll").click(function () {
+                $("html,body").animate({
+                    scrollTop: $(".top").offset().top
+                }, "1000");
+                return false
+            })
+        })
+    </script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            var $slickElement = $('.slideshow');
+
+            $slickElement.slick({
+                autoplay: true,
+                dots: false,
+            });
+
+        });
+    </script>
+
+    <script>
+        // <!---Contact-form---->
+        jQuery(document).on('click', '#querysubmit', function () {
+            jQuery("#msg-error").css('display', 'none');
+            var name = $("#uname").val();
+            var email = $("#uemail").val();
+            var mobile = $("#umobile").val();
+            var message = $("#umessage").val();
+            var domainid = $("#domainid").val();
+            var domainurl = $("#domainurl").val();
+            var atposition = email.indexOf("@");
+            var dotposition = email.lastIndexOf(".");
+            var name_regex = /^[0-9a-zA-Z \s]+$/;
+            var number_regex = /^[6-9]\d{9}$/;
+
+            if (name == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Name should not be empty.");
+                jQuery('#uname').focus();
+                return false;
+            }
+            if (mobile == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter Mobile Number.");
+                jQuery('#umobile').focus();
+                return false;
+            }
+            if (!mobile.match(number_regex)) {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter a Valid Mobile Number.");
+                jQuery('#umobile').focus();
+                return false;
+            }
+            if (email == '') {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter Your Email.");
+                jQuery('#uemail').focus();
+                return false;
+            }
+            if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter a valid E-mail address");
+                jQuery('#uemail').focus();
+                return false;
+            }
+            if (message == "") {
+                jQuery("#msg-error").css('display', 'block');
+                jQuery("#msg-error").html("Enter message.");
+                jQuery('#message').focus();
+                return false;
+            } else {
+                jQuery.ajax({
+                    url: "https://grapossconnect.com/api/meriwebsite_enquiry_api.php",
+                    method: "POST",
+                    data: {
+                        dataType: 'enquiry',
+                        name: name,
+                        email: email,
+                        mobile: mobile,
+                        message: message,
+                        domainid: domainid,
+                        domainurl: domainurl
+                    },
+                    success: function (data) {
+                        console.log(data);
+                        var msg = data.msg;
+                        //alert(msg);
+                        jQuery('#queryform')[0].reset();
+                        if (data.status == 1) {
+                            jQuery("#successmsg").html('<div class="success">Thankyou for contacting us we will revert back to you soon</div>');
+                        }
+
+                        // jQuery("#queryform").css("display", "none");
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr);
+                    }
+                })
+            }
+        });
+    // <!---End Contact Form--->
+    </script>
+
+    <!-- END FOOTER SECTION -->
+</body>
+
+</html>

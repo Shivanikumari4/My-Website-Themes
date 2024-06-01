@@ -1,0 +1,1525 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+table,
+div,
+ul,
+li,
+button,
+input,
+button,
+select,
+tr,
+td,
+th {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.scrolltop .icon {
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 52px;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4b85f0;
+    color: #fff;
+    display: none;
+}
+
+.msg-error {
+    animation: 0;
+    color: #ce0f0f;
+    text-align: left;
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.success {
+    padding: 10px;
+    color: green;
+    text-align: center;
+}
+
+.header-section .navigation-header.sticky {
+    background-color: red;
+}
+
+/* **************************************** TOP HEADER SECTION CSS */
+
+.header-section .topheader-section h1 {
+    margin: 0;
+    color: #bb0c0c;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header-section .topheader-section h2 {
+    margin: 0;
+    font-size: 12px;
+    color: #969696;
+    font-weight: 700;
+}
+
+.header-section .topheader-section h3 {
+    margin: 0;
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.header-section .navigation-header .topnav {
+    overflow: hidden;
+    text-align: right;
+}
+
+.header-section .navigation-header .topnav a {
+    display: inline-block;
+    color: #1d1d1d;
+    text-align: center;
+    padding: 14px 0 14px 30px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.4s all;
+    font-weight: 700;
+}
+
+.header-section .navigation-header.sticky .topnav a {
+    color: #000;
+}
+
+.header-section .navigation-header.sticky .topnav a.active {
+    color: #000;
+}
+
+.header-section .navigation-header.sticky form input {
+    color: #000;
+}
+
+.header-section .navigation-header .topnav a:hover {
+    color: #bb0c0c;
+}
+
+.header-section .navigation-header .topnav .logo {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 10px 3px 10px;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header-section .navigation-header .topnav .logo img {
+    width: 30px;
+    height: auto;
+}
+
+.header-section .navigation-header .topnav .logo:hover {
+    background: transparent;
+}
+
+.header-section .navigation-header .topnav button {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .header-section .navigation-header .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .header-section .navigation-header .topnav button.icon {
+        background: #bb0c0c;
+        float: right;
+        display: block;
+        padding: 14px 20px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .header-section .navigation-header .topnav button.icon i {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    button.icon:focus,
+    button.icon:hover {
+        border: 0;
+        outline: none;
+        background: #b3b3b3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-section .navigation-header .topnav.responsive {
+        position: relative;
+    }
+
+    .header-section .navigation-header .topnav a {
+        padding: 16px 0 16px 20px;
+    }
+
+    .header-section .navigation-header .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 16px 0 16px 20px;
+    }
+
+    .header-section .navigation-header .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+.header-section .navigation-header.sticky {
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background: #ffffff;
+    z-index: 999;
+    padding: 10px 0;
+    border-bottom: 2px solid #be7374;
+}
+
+.header-section .header-contact-section {
+    border-bottom: 2px solid #f5f5f5;
+    background: #bb0c0c;
+}
+
+.header-section .header-contact-section .leftcontact-txt {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.header-section .header-contact-section .leftcontact-txt span {
+    margin-right: 20px;
+}
+
+.header-section .header-contact-section .rightcontact-txt {
+    margin: 0;
+    text-align: right;
+}
+
+.header-section .header-contact-section .rightcontact-txt i {
+    display: inline-block;
+    padding: 12px 0 12px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.4s all;
+}
+
+.header-section .navigation-header {
+    background: #fff;
+    border-bottom: 4px solid #bb0c0c;
+    padding: 20px 0;
+}
+
+/* *********************************************** BANNER SECTION CSS */
+
+.Sliderbanner-section .img-fill {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.Sliderbanner-section .img-fill img {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+    object-fit: cover;
+}
+
+.Sliderbanner-section *,
+.Sliderbanner-section *:before,
+.Sliderbanner-section *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.Sliderbanner-section .Grid1k {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Sliderbanner-section .blocks-box,
+.Sliderbanner-section .slick-slider {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.Sliderbanner-section .slick-slide {
+    float: left;
+    padding: 0;
+}
+
+.Sliderbanner-section .Modern-Slider .item .img-fill {
+    height: 80vh;
+    background: #000;
+}
+
+.Sliderbanner-section .Modern-Slider .item .img-fill .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    line-height: 60vh;
+    text-align: center;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner1txt {
+    width: 100%;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 0em 12em 4em;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner1txt h5 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner1txt h5 a {
+    background: #bb0c0c;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner2txt {
+    width: 100%;
+    text-align: right;
+    padding: 0em 10em 0 20em;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner2txt h5 {
+    margin: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info .banner2txt h5 a {
+    background: #f14b05;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.Sliderbanner-section .Modern-Slider .item .info>div {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.Sliderbanner-section .Modern-Slider .NextArrow {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0 none;
+    margin-top: -22.5px;
+    text-align: center;
+    font: 20px/45px FontAwesome;
+    color: #fff;
+    z-index: 5;
+}
+
+.Sliderbanner-section .Modern-Slider .NextArrow:before {
+    content: "\f105";
+}
+
+.Sliderbanner-section .Modern-Slider .PrevArrow {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0 none;
+    margin-top: -22.5px;
+    text-align: center;
+    font: 20px/45px FontAwesome;
+    color: #fff;
+    z-index: 5;
+}
+
+.Sliderbanner-section .Modern-Slider .PrevArrow:before {
+    content: "\f104";
+}
+
+.Sliderbanner-section .Modern-Slider .slick-dots {
+    position: absolute;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.Sliderbanner-section .Modern-Slider .slick-dots li button {
+    display: none;
+}
+
+.Sliderbanner-section .Modern-Slider .slick-dots li {
+    float: left;
+    width: 0px;
+    height: 5px;
+    background: #d62828;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.Sliderbanner-section .Modern-Slider .slick-dots li.slick-active {
+    width: 100%;
+    animation: ProgressDots 11s both;
+}
+
+.Sliderbanner-section .Modern-Slider .item h3 {
+    color: #fff;
+    animation: fadeOutRight 1s both;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.Sliderbanner-section .Modern-Slider .item h5 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+    animation: fadeOutLeft 1s both;
+    font-size: 16px;
+    width: 64%;
+    margin: 18px auto 0;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.Sliderbanner-section .Modern-Slider .item.slick-active h3 {
+    animation: fadeInDown 1s both 1s;
+}
+
+.Sliderbanner-section .Modern-Slider .item.slick-active h5 {
+    animation: fadeInLeft 1s both 1.5s;
+}
+
+.Sliderbanner-section .Modern-Slider .item.slick-active {
+    animation: Slick-FastSwipeIn 1s both;
+}
+
+.Sliderbanner-section .Modern-Slider {
+    background: #000;
+}
+
+
+/* ==== Slider Image Transition === */
+
+@keyframes Slick-FastSwipeIn {
+    0% {
+        transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
+    }
+}
+
+@-webkit-keyframes ProgressDots {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes ProgressDots {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.Sliderbanner-section .slick-slider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Sliderbanner-section .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.Sliderbanner-section .slick-list:focus {
+    outline: none;
+}
+
+.Sliderbanner-section .slick-list.dragging {
+    cursor: hand;
+}
+
+.Sliderbanner-section .slick-slider .slick-track,
+.Sliderbanner-section .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.Sliderbanner-section .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.Sliderbanner-section .slick-track:before,
+.Sliderbanner-section .slick-track:after {
+    display: table;
+    content: "";
+}
+
+.Sliderbanner-section .slick-track:after {
+    clear: both;
+}
+
+.Sliderbanner-section .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.Sliderbanner-section .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.Sliderbanner-section .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.Sliderbanner-section .slick-initialized .slick-slide {
+    display: block;
+}
+
+.Sliderbanner-section .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.Sliderbanner-section .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+/* ******************************************* FOUR FEATURES SECTION CSS */
+
+.fourfeatures-section {
+    margin-top: -90px;
+}
+
+.fourfeatures-section .fourfeaturesbox-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourfeatures-section .fourfeaturesbox-flex .fourfeatures-box {
+    background: #10c45c;
+    padding: 30px;
+    transform: translateY(0);
+    transition-duration: 0.3s;
+}
+
+.fourfeatures-section .fourfeaturesbox-flex .fourfeatures-box:hover {
+    transform: translateY(-8px);
+}
+
+.fourfeatures-section .fourfeaturesbox-flex .fourfeatures-box i {
+    color: #fff;
+    font-size: 32px;
+}
+
+.fourfeatures-section .fourfeaturesbox-flex .fourfeatures-box h4 {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 0 10px;
+}
+
+.fourfeatures-section .fourfeaturesbox-flex .fourfeatures-box p {
+    margin: 0;
+    color: #fff;
+}
+
+.fourfeatures-box {
+    width: 60%;
+    height: 230px;
+}
+
+/* ***************************************  */
+
+.popularcourse-section {
+    padding: 3em 0;
+}
+
+.popularcourse-section .popularcourse-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.popularcourse-section .popularcourse-box h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #773232;
+    margin-top: 20px;
+}
+
+.popularcourse-section .popularcourse-box p {
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #545454;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 10px;
+}
+
+.popularcourse-section .popularcourse-box {
+    border: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+    border-radius: 0 0 4px 4px;
+    transition: 0.4s all;
+    height: 320px;
+}
+
+.popularcourse-section .popularcourse-box:hover {
+    box-shadow: 0 0 12px -2px #aeaeae;
+}
+
+/* ******************************************** COUNTERS SECTION CSS */
+
+.counters-section {
+    position: relative;
+    padding: 3em 0;
+    background: #bb0c0c;
+    z-index: 1;
+    text-align: center;
+}
+
+.counters-section .countersbg-section {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(./images/Achievementsbg.jpg) center center;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counters-section h2 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.counters-section p {
+    margin: 0;
+    color: #e0e0e0;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.counters-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.counters-section ul li {
+    list-style: none;
+    margin: 0 5em;
+}
+
+.counters-section ul li i {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.counters-section ul li h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.counters-section ul li h5 {
+    margin: 0;
+    color: #dadada;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+/* ****************************************** ABOUT US SECTION CSS */
+
+.aboutus-section {
+    padding: 3em 0;
+    background: #fff7f7;
+    border-top: 2px solid #ffe7e7;
+    border-bottom: 2px solid #ffe7e7;
+}
+
+.aboutus-section img {
+    width: 80%;
+}
+
+.aboutus-section h2 {
+    margin: 0;
+    font-weight: 700;
+    color: #bb0c0c;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.aboutus-section h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.aboutus-section p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #787878;
+}
+
+/* *************************************** OUR FEATURES SECTION CSS */
+
+.ourfeatures-section {
+    padding: 3em 0;
+}
+
+.ourfeatures-section .ourfeatures-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ourfeatures-section .ourfeatures-box img {
+    width: 36%;
+    background: whitesmoke;
+    padding: 10px 20px;
+    border: 1px solid #e4e4e4;
+}
+
+.ourfeatures-section .ourfeatures-box h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #525252;
+}
+
+/* ***************************************** PHOTOGALLERY SECTION CSS */
+
+.PhotoGallery-section {
+    padding: 3em 0;
+}
+
+.PhotoGallery-section .img-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.PhotoGallery-section .img-wrapper img {
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+    height: 250px;
+    object-fit: cover;
+}
+
+.PhotoGallery-section .img-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+.PhotoGallery-section .img-overlay {
+    background: rgb(255 255 255 / 42%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.PhotoGallery-section .img-overlay h4 {
+    margin: 0;
+    background: rgb(0 0 0 / 59%);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.PhotoGallery-section .img-overlay i {
+    color: #fff;
+    font-size: 3em;
+}
+
+.PhotoGallery-section #overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.PhotoGallery-section #overlay img {
+    margin: 0;
+    width: 80%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    padding: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .PhotoGallery-section #overlay img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .PhotoGallery-section #overlay img {
+        width: 50%;
+    }
+}
+
+.PhotoGallery-section #nextButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    cursor: pointer;
+}
+
+.PhotoGallery-section #nextButton:hover {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+    .PhotoGallery-section #nextButton {
+        font-size: 3em;
+    }
+}
+
+.PhotoGallery-section #prevButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    cursor: pointer;
+}
+
+.PhotoGallery-section #prevButton:hover {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+    .PhotoGallery-section #prevButton {
+        font-size: 3em;
+    }
+}
+
+.PhotoGallery-section #exitButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.PhotoGallery-section #exitButton:hover {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+    .PhotoGallery-section #exitButton {
+        font-size: 3em;
+    }
+}
+
+.headingtxt-box h2 {
+    text-align: left;
+    margin: 0;
+    font-weight: 700;
+    color: #bb0c0c;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headingtxt-box h2 a {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #5a5a5a;
+}
+
+.headingtxt-box h6 {
+    margin: 0;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.PhotoGallery-section h2 span {
+    color: #f2a93d;
+}
+
+.PhotoGallery-section p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1em 32em;
+    color: #666666;
+    margin-bottom: 1em;
+}
+
+/* ********************************************* CONTACT US SECTION CSS */
+
+.ContactUs-section {
+    padding: 3em 0;
+    background: #fff8f6;
+}
+
+.ContactUs-section .ContactUs-form {
+    padding: 40px;
+    box-shadow: 0 0 10px 1px #dddddd;
+    border-radius: 10px;
+    display: flex;
+    background: #fff;
+}
+
+.ContactUs-section .ContactUs-form ul {
+    width: 44%;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.ContactUs-section .ContactUs-form ul li {
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.ContactUs-section .ContactUs-form ul li i {
+    background: #f8f8f8;
+    font-size: 20px;
+    color: #bb0c0c;
+    min-width: 48px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #bb0c0c;
+    margin-right: 16px;
+}
+
+.ContactUs-section .ContactUs-form ul li h3 {
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.ContactUs-section .ContactUs-form ul li h4 {
+    margin: 0;
+    padding: 6px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: dimgrey;
+    line-height: 19px;
+}
+
+.ContactUs-section .ContactUs-form ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.ContactUs-section .ContactUs-form form {
+    padding: 30px 20px;
+    box-shadow: 0 0 10px 1px #dddddd;
+    border-radius: 10px;
+    background: #fff;
+    width: 80%;
+}
+
+.ContactUs-section .ContactUs-form form h3 {
+    text-align: center;
+    margin: 0;
+    color: #bb0c0c;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.ContactUs-section .ContactUs-form form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.ContactUs-section .ContactUs-form form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.ContactUs-section .ContactUs-form form button {
+    background: #bb0c0c;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.4s all;
+}
+
+.ContactUs-section .ContactUs-form form button:hover {
+    background: #ff7e48;
+}
+
+/* *************************************** FOOTER SECTION CSS */
+
+.Footer-section {
+    background: #460606;
+    text-align: center;
+    padding: 3em 0;
+    text-align: left;
+    opacity: 0.9;
+}
+
+.Footer-section h1 {
+    color: #fff;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 32px;
+}
+
+.Footer-section p {
+    color: #ebd2d2;
+    line-height: 26px;
+
+}
+
+.Footer-section h5 {
+    color: #fff;
+    line-height: 26px;
+}
+
+.Footer-section h3 {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.Footer-section h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Footer-section h6 {
+    color: #fff;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.Footer-section h6 a {
+    color: #fff;
+    transition: 0.4s all;
+    display: block;
+    font-size: 14px;
+    width: 48%;
+    padding: 4px 0;
+}
+
+.Footer-section h6 a:hover {
+    color: rgb(226, 79, 79);
+    transition: 0.4s all;
+}
+
+.Footer-section h6 a:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.Footer-section p a i {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 4px;
+    background: transparent;
+    border-radius: 50%;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+
+.Footer-section p a i:hover {
+    background-color: #fff;
+    color: #460606;
+    transition: 0.4s all;
+}
+
+.Footer-section .Footerflex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.Footer-section .Footerflex-box h5 {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.Footer-section .Footerflex-box h5 span {
+    font-weight: 600;
+}
+
+.Footer-section .Footerflex-box h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Footer-section .Footerflex-box h4 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.Footer-section .Footerflex-box h4 a:hover {
+    color: rgb(226, 79, 79);
+    transition: 0.4s all;
+}
+
+.fa-solid,
+.fas {
+    padding: 0px 10px;
+}
+
+/* ************************************************ ALL HEADER PAGE SECTION CSS */
+
+.allheader-page {
+    position: relative;
+    padding: 4em 0;
+    background: #430d0d;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.allheader-page .allheader-pagebg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.allheader-page .allheader-flex h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.9px;
+}
+
+/* ******************************************** MEDIA RESPONSIVE SECTION CSS */
+
+@media only screen and (max-width: 600px) {
+    .header-section .header-contact-section .leftcontact-txt {
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .header-section .header-contact-section {
+        padding: 1em 0;
+    }
+
+    .header-section .header-contact-section .leftcontact-txt span {
+        display: table-cell;
+        margin: 0;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+
+    .header-section .header-contact-section .rightcontact-txt {
+        text-align: center;
+    }
+
+    .header-section .header-contact-section .rightcontact-txt i {
+        font-size: 16px;
+    }
+
+    .fa-solid {
+        padding: 0 4px;
+    }
+
+    .header-section .topheader-section h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .header-section .navigation-header .topnav {
+        background: whitesmoke;
+        margin-top: 20px;
+        text-align: left;
+        border: 1px solid #e9e9e9;
+    }
+
+    .Sliderbanner-section .Modern-Slider .item .img-fill {
+        height: auto;
+    }
+
+    .fourfeatures-section {
+        margin-top: 0;
+        padding: 1em 0;
+    }
+
+    .Sliderbanner-section .Modern-Slider .item .info .banner1txt,
+    .Sliderbanner-section .Modern-Slider .item .info .banner2txt {
+        display: none !important;
+    }
+
+    .fourfeatures-section .fourfeaturesbox-flex {
+        display: block;
+    }
+
+    .headingtxt-box h2 {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .headingtxt-box h2 a {
+        display: block;
+        text-align: center;
+        padding: 10px 0 0;
+    }
+
+    .headingtxt-box h6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .popularcourse-section .popularcourse-box {
+        margin-bottom: 20px;
+    }
+
+    .aboutus-section img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .counters-section ul {
+        display: block;
+    }
+
+    .counters-section ul li {
+        margin: 0 0 40px 0;
+    }
+
+    .Footer-section h2 {
+        font-size: 20px;
+    }
+
+    .Footer-section h6 {
+        line-height: 28px;
+        font-size: 12px;
+    }
+
+    .Footer-section h5 {
+        font-size: 12px;
+    }
+
+    .ourfeatures-section .ourfeatures-box img {
+        width: 70%;
+    }
+
+    .ourfeatures-section .ourfeatures-box h2 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .ourfeatures-section .ourfeatures-box {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .allheader-page .allheader-flex h1 {
+        letter-spacing: 0;
+        font-size: 22px;
+    }
+
+    .ContactUs-section .ContactUs-form {
+        display: block;
+        padding: 30px;
+    }
+
+    .ContactUs-section .ContactUs-form ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    .ContactUs-section .ContactUs-form ul li:last-child {
+
+        border-bottom: 2px solid #e8e8e8;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .ContactUs-section .ContactUs-form form {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .Footer-section .Footerflex-box {
+        display: block;
+        text-align: center;
+    }
+
+    .Footer-section .Footerflex-box h5 {
+        font-size: 11px;
+    }
+
+    .Footer-section .Footerflex-box h4 {
+        margin-top: 15px;
+    }
+
+    .Footer-section h6 a {
+        width: 100%;
+    }
+
+    .Footer-section h3 {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    .Footer-section {
+        padding: 1em 0;
+    }
+
+    .ContactUs-section {
+        padding: 0em 0;
+    }
+
+    .PhotoGallery-section {
+        padding: 2em 0;
+    }
+
+    .headingtxt-box h6 {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .ourfeatures-section {
+        padding: 1em 0;
+    }
+
+    .aboutus-section {
+        padding: 1em 0;
+    }
+
+    .popularcourse-section {
+        padding: 0em 0;
+    }
+
+    .Sliderbanner-section .Modern-Slider .NextArrow,
+    .Sliderbanner-section .Modern-Slider .PrevArrow {
+        display: none !important;
+    }
+}
