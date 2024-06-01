@@ -4,7 +4,7 @@
 
 <!-- Git Command lists -->
 
-# git clone repo url ------- For add and clone the repo Url.
-# git add . ---------- For git changes add on repo.
-# git commit -m message text ------- For commit your changes on the repo.
-# git push ---------- For push all changes on the repo. 
+1 git clone repo url ------- For add and clone the repo Url.
+2 git add . ---------- For git changes add on repo.
+3 git commit -m message text ------- For commit your changes on the repo.
+4 git push ---------- For push all changes on the repo. 
